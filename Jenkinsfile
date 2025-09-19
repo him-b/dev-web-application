@@ -9,7 +9,7 @@ pipeline{
     stages{
         stage('Git-checkout'){
             steps{
-                git branch: 'dev' , url: 'https://github.com/him-b/dev-web-application.git'
+                git branch: 'master' , url: 'https://github.com/him-b/dev-web-application.git'
             }
         }
         stage('Code Compile'){
